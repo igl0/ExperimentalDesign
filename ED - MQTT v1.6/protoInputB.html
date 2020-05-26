@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styleB.css">
+
+    <script src="mqttws31.js"></script>
+    <script src="scriptB.js"></script>
+    <script src="inputB.js"></script>
+</head>
+<body>
+
+    <!--This div controles the css, so it will be hidden in the controller page so it can be used, there might be a better way to do this// use "class = light" to show it-->
+    <div id="light"></div>
+    
+    <div class="switch">
+        <div id="darker" class="darker" onclick="brightSwitch()"></div>
+        <div id="lighter" class="lighter" onclick="darkSwitch()"></div>
+       <!-- <div id="darker" class="darker" onclick="brightSwitch()"></div>-->
+    </div>
+
+    
+
+</body>
+
+</html>
